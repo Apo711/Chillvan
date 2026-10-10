@@ -1,0 +1,319 @@
+{
+  "users": [
+    {
+      "id": "teacher-yenthanh",
+      "role": "teacher",
+      "email": "coyenthanh@chillvan.edu.vn",
+      "fullName": "Cô Yến Thanh (Ngữ Văn)",
+      "passwordHash": "$2b$10$RLAkHq5Bin44Cy0Q1omd1O3xmQbhF5Iq.3mhPlLOQw.X1l9rbVSZy",
+      "status": "active",
+      "createdAt": "2026-10-10T15:04:09.173Z"
+    },
+    {
+      "id": "student-ducminh",
+      "role": "student",
+      "username": "ducminh",
+      "fullName": "Trần Đức Minh",
+      "passwordHash": "$2b$10$OujVgDO7Bf0rJ8NftMoGmujDjT1UwzsXsGt0BSMuAs5BTs7nKiiNu",
+      "classId": "class-6a",
+      "status": "active",
+      "createdAt": "2026-10-10T15:04:09.367Z"
+    },
+    {
+      "id": "student-haianh",
+      "role": "student",
+      "username": "haianh",
+      "fullName": "Nguyễn Hải Anh",
+      "passwordHash": "$2b$10$OujVgDO7Bf0rJ8NftMoGmujDjT1UwzsXsGt0BSMuAs5BTs7nKiiNu",
+      "classId": "class-6a",
+      "status": "active",
+      "createdAt": "2026-10-10T15:04:09.367Z"
+    }
+  ],
+  "classes": [
+    {
+      "id": "class-6a",
+      "name": "Lớp 6A - Khám Phá Văn Học",
+      "grade": "6",
+      "schoolYear": "2026 - 2027",
+      "description": "Lớp học vui vẻ, rèn luyện kỹ năng đọc hiểu và viết văn miêu tả, tự sự",
+      "teacherId": "teacher-yenthanh",
+      "createdAt": "2026-10-10T15:04:09.174Z"
+    },
+    {
+      "id": "class-8b",
+      "name": "Lớp 8B - Chắp Cánh Ước Mơ",
+      "grade": "8",
+      "schoolYear": "2026 - 2027",
+      "description": "Chuyên sâu thơ văn trữ tình, văn bản nhật dụng và nghị luận văn học",
+      "teacherId": "teacher-yenthanh",
+      "createdAt": "2026-10-10T15:04:09.174Z"
+    }
+  ],
+  "materials": [
+    {
+      "id": "mat-1",
+      "title": "Tóm tắt & Sơ đồ tư duy bài thơ \"Đồng chí\" (Chính Hữu)",
+      "description": "Sơ đồ hình ảnh hệ thống hoá hoàn cảnh ra đời, vẻ đẹp tình đồng chí và biểu tượng đầu súng trăng treo.",
+      "topic": "Thơ Việt Nam hiện đại",
+      "classId": "all",
+      "fileType": "text",
+      "fileName": "so-do-dong-chi.txt",
+      "fileContent": "1. Cơ sở hình thành tình đồng chí:\n- Cùng chung cảnh ngộ xuất thân nghèo khó: \"Quê hương anh nước mặn đồng chua / Làng tôi nghèo đất cày lên sỏi đá\".\n- Cùng chung lý tưởng cách mạng, mục tiêu chiến đấu: \"Súng bên súng, đầu sát bên đầu\".\n- Chia sẻ gian lao, gắn bó keo sơn: \"Đêm rét chung chăn thành đôi tri kỷ\".\n\n2. Biểu hiện cảm động của tình đồng chí:\n- Thấu hiểu tâm tư, nỗi nhớ quê hương: \"Ruộng nương anh gửi bạn thân cày / Gian nhà không mặc kệ gió lung lay\".\n- Cùng chia sẻ những cơn sốt rét rừng hiểm nghèo và thiếu thốn quân trang: \"Áo anh rách vai / Quần tôi có vài mảnh vá / Miệng cười buốt giá / Chân không giày\".\n- Tình cảm ấm áp xua tan giá buốt: \"Thương nhau tay nắm lấy bàn tay\".\n\n3. Bức tranh tuyệt đẹp về tình đồng chí:\n- Đêm phục kích chờ giặc trong sương muối lạnh lẽo: \"Rừng hoang sương muối / Đứng cạnh bên nhau chờ giặc tới\".\n- Biểu tượng thơ mộng và hiện thực: \"Đầu súng trăng treo\" - sự kết hợp giữa chiến sĩ và thi sĩ, hiện thực khốc liệt và lãng mạn cao cả.",
+      "teacherId": "teacher-yenthanh",
+      "createdAt": "2026-10-10T15:04:09.367Z",
+      "updatedAt": "2026-10-10T15:04:09.367Z"
+    },
+    {
+      "id": "mat-2",
+      "title": "Cẩm nang 5 bước viết mở bài Nghị luận văn học siêu cuốn hút",
+      "description": "Phương pháp mở bài trực tiếp và gián tiếp kèm ví dụ mẫu dễ áp dụng cho học sinh THCS.",
+      "topic": "Kỹ năng làm văn",
+      "classId": "class-6a",
+      "fileType": "text",
+      "fileName": "mo-bai-nghi-luan.txt",
+      "fileContent": "Phương pháp 1: Đi từ tác giả, thời đại tới tác phẩm.\nVí dụ: \"Mỗi thời đại đi qua đều để lại những dấu ấn khó phai trong dòng chảy văn học. Và với thi ca kháng chiến chống Pháp, Chính Hữu đã khắc sâu vào lòng độc giả một bức tượng đài tình bạn cao đẹp qua bài thơ 'Đồng chí'...\"\n\nPhương pháp 2: Đi từ một nhận định văn học hoặc danh ngôn.\nVí dụ: \"Nhà văn Pau-tốp-xki từng nói: 'Niềm vui của nhà văn chân chính là niềm vui của người dẫn đường đến xứ sở cái đẹp'. Đọc bài thơ..., người đọc được bước vào xứ sở của những tình cảm chân thành, ấm áp nhất...\"\n\nPhương pháp 3: So sánh tương đồng hoặc đối lập.\nGợi ý: So sánh hình ảnh người lính thời xưa với người lính Cụ Hồ thời hiện đại để làm bật lên vẻ đẹp mộc mạc, bình dị.",
+      "teacherId": "teacher-yenthanh",
+      "createdAt": "2026-10-10T15:04:09.367Z",
+      "updatedAt": "2026-10-10T15:04:09.367Z"
+    }
+  ],
+  "assignments": [
+    {
+      "id": "assign-1",
+      "title": "Phiếu học tập: Khám phá vẻ đẹp bài thơ \"Đồng chí\"",
+      "instructions": "Các em đọc kỹ từng câu hỏi, suy nghĩ thấu đáo và trả lời bằng giọng văn truyền cảm nhé!",
+      "classId": "class-6a",
+      "dueDate": "2026-10-17T15:04:09.367Z",
+      "maxScore": 10,
+      "status": "published",
+      "allowRetry": true,
+      "teacherId": "teacher-yenthanh",
+      "createdAt": "2026-10-10T15:04:09.367Z",
+      "updatedAt": "2026-10-10T15:04:09.367Z",
+      "questions": [
+        {
+          "id": "q-1",
+          "type": "single_choice",
+          "prompt": "Bài thơ \"Đồng chí\" của Chính Hữu được sáng tác vào năm nào?",
+          "points": 1.5,
+          "options": [
+            "Năm 1948",
+            "Năm 1954",
+            "Năm 1975",
+            "Năm 1986"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Bài thơ được sáng tác vào đầu năm 1948, sau chiến dịch Việt Bắc thu đông 1947."
+        },
+        {
+          "id": "q-2",
+          "type": "true_false",
+          "prompt": "Hình ảnh \"Đầu súng trăng treo\" ở cuối bài thơ chỉ mang tính hiện thực mà không có chất lãng mạn.",
+          "points": 1.5,
+          "options": [
+            "Đúng",
+            "Sai"
+          ],
+          "correctAnswer": "Sai",
+          "explanation": "Hình ảnh này kết hợp hài hoà giữa hiện thực khốc liệt (súng) và chất thơ lãng mạn bay bổng (trăng)."
+        },
+        {
+          "id": "q-3",
+          "type": "fill_in_blank",
+          "prompt": "Điền từ còn thiếu vào dấu ba chấm: \"Thương nhau tay nắm lấy ...\"",
+          "points": 2,
+          "correctAnswer": "bàn tay",
+          "acceptedVariants": [
+            "bàn tay",
+            "ban tay",
+            "bàn tay."
+          ],
+          "explanation": "Cử chỉ \"tay nắm lấy bàn tay\" thể hiện sự sẻ chia, truyền hơi ấm thầm lặng."
+        },
+        {
+          "id": "q-4",
+          "type": "short_essay",
+          "prompt": "Từ \"tri kỷ\" trong câu \"Đêm rét chung chăn thành đôi tri kỷ\" có ý nghĩa gì đối với tình bạn của hai người lính?",
+          "points": 2,
+          "explanation": "\"Tri kỷ\" là người bạn hiểu rõ bạn mình như hiểu chính mình, gắn bó tâm hồn sâu sắc."
+        },
+        {
+          "id": "q-5",
+          "type": "long_essay",
+          "prompt": "Viết một đoạn văn ngắn (khoảng 8 - 10 câu) nêu cảm nhận của em về chi tiết \"Miệng cười buốt giá / Chân không giày / Thương nhau tay nắm lấy bàn tay\".",
+          "points": 3,
+          "explanation": "Học sinh nêu bật được gian khổ thiếu thốn, tinh thần lạc quan và hơi ấm tình người vượt qua giá lạnh."
+        }
+      ]
+    }
+  ],
+  "submissions": [
+    {
+      "id": "sub-1791644680912",
+      "assignmentId": "assign-1",
+      "studentId": "student-ducminh",
+      "classId": "class-6a",
+      "answers": [
+        {
+          "questionId": "q-1",
+          "selectedOption": "A",
+          "autoScore": 1.5,
+          "teacherScore": 1.5,
+          "teacherComment": ""
+        },
+        {
+          "questionId": "q-2",
+          "selectedOption": "Sai",
+          "autoScore": 1.5,
+          "teacherScore": 1.5,
+          "teacherComment": ""
+        },
+        {
+          "questionId": "q-3",
+          "answerText": "bàn tay",
+          "autoScore": 2,
+          "teacherScore": 2,
+          "teacherComment": ""
+        },
+        {
+          "questionId": "q-4",
+          "answerText": "Từ tri kỷ thể hiện sự thấu hiểu sâu sắc tâm hồn của hai người đồng chí.",
+          "autoScore": 0,
+          "teacherScore": 2,
+          "teacherComment": "Em giải thích rất đúng ý nghĩa của từ tri kỷ."
+        },
+        {
+          "questionId": "q-5",
+          "answerText": "Chi tiết miệng cười buốt giá chân không giày làm nổi bật sự gian lao thiếu thốn tột cùng của người lính trong kháng chiến chống Pháp. Nhưng vượt lên tất cả, cử chỉ thương nhau tay nắm lấy bàn tay đã truyền cho nhau hơi ấm thiêng liêng của tình đồng đội cao cả.",
+          "autoScore": 0,
+          "teacherScore": 2.5,
+          "teacherComment": "Đoạn văn viết rất xúc động, giàu cảm xúc và hình ảnh."
+        }
+      ],
+      "status": "graded",
+      "submittedAt": "2026-10-10T15:04:40.912Z",
+      "autoGradedScore": 5,
+      "finalScore": 9.5,
+      "isPublished": true,
+      "history": [
+        {
+          "action": "submit",
+          "updatedAt": "2026-10-10T15:04:40.912Z",
+          "note": "Học sinh nộp bài"
+        },
+        {
+          "action": "grade",
+          "score": 9.5,
+          "updatedAt": "2026-10-10T15:04:58.492Z",
+          "note": "Giáo viên chấm và công bố kết quả"
+        }
+      ],
+      "teacherFeedback": "Đức Minh làm bài rất tốt, câu văn truyền cảm. Cố gắng phát huy nhé em!",
+      "gradedAt": "2026-10-10T15:04:58.492Z"
+    }
+  ],
+  "achievementLogs": [
+    {
+      "id": "log-1",
+      "studentId": "student-ducminh",
+      "classId": "class-6a",
+      "points": 20,
+      "category": "on_time",
+      "reason": "Nộp bài đọc hiểu trước thời hạn 2 ngày với chữ viết rất cẩn thận",
+      "teacherId": "teacher-yenthanh",
+      "createdAt": "2026-10-07T15:04:09.367Z"
+    },
+    {
+      "id": "log-2",
+      "studentId": "student-ducminh",
+      "classId": "class-6a",
+      "points": 30,
+      "category": "creative",
+      "reason": "Có góc nhìn sáng tạo khi phân tích hình ảnh biểu tượng \"Đầu súng trăng treo\"",
+      "teacherId": "teacher-yenthanh",
+      "createdAt": "2026-10-09T15:04:09.367Z"
+    },
+    {
+      "id": "log-3",
+      "studentId": "student-haianh",
+      "classId": "class-6a",
+      "points": 40,
+      "category": "active_speaking",
+      "reason": "Hăng hái phát biểu và chia sẻ cảm nghĩ rất hay trong tiết học thơ ca",
+      "teacherId": "teacher-yenthanh",
+      "createdAt": "2026-10-08T15:04:09.367Z"
+    }
+  ],
+  "monthlyHonors": [
+    {
+      "id": "honor-1",
+      "month": "10/2026",
+      "classId": "class-6a",
+      "category": "sang_tao",
+      "studentId": "student-ducminh",
+      "teacherComment": "Đức Minh có những bài viết rất giàu tưởng tượng và cảm xúc chân thật, cô rất tự hào về em!",
+      "awardedAt": "2026-10-10T15:04:09.367Z"
+    },
+    {
+      "id": "honor-2",
+      "month": "10/2026",
+      "classId": "class-6a",
+      "category": "tich_cuc",
+      "studentId": "student-haianh",
+      "teacherComment": "Hải Anh luôn lan tỏa nguồn năng lượng học tập tích cực tới cả lớp!",
+      "awardedAt": "2026-10-10T15:04:09.367Z"
+    }
+  ],
+  "rewards": [
+    {
+      "id": "rew-1",
+      "title": "Sổ tay Chill Văn bìa hoa Pastel",
+      "description": "Quyển sổ tay ghi chú bìa cứng dễ thương có in lời chúc ngọt ngào từ Cô Yến Thanh.",
+      "conditionText": "Tích lũy từ 100 điểm sao Chill Văn trong tháng",
+      "minPoints": 100,
+      "quantity": 5,
+      "availableMonth": "10/2026",
+      "active": true,
+      "createdAt": "2026-10-10T15:04:09.367Z"
+    },
+    {
+      "id": "rew-2",
+      "title": "Bút mực thần kỳ & Huy hiệu Ngôi sao Chill Văn",
+      "description": "Bộ bút mực viết êm cùng huy hiệu cài áo phiên bản độc quyền môn Ngữ văn.",
+      "conditionText": "Hoàn thành 100% bài tập đúng hạn trong tháng",
+      "minPoints": 60,
+      "quantity": 10,
+      "availableMonth": "10/2026",
+      "active": true,
+      "createdAt": "2026-10-10T15:04:09.367Z"
+    },
+    {
+      "id": "rew-3",
+      "title": "Phiếu miễn trừ 1 lần kiểm tra bài cũ",
+      "description": "Đặc quyền chọn một hoạt động làm việc nhóm sáng tạo thay cho trả bài miệng ngẫu nhiên.",
+      "conditionText": "Đạt danh hiệu trong Bảng Vinh Danh tháng",
+      "minPoints": 80,
+      "quantity": 3,
+      "availableMonth": "10/2026",
+      "active": true,
+      "createdAt": "2026-10-10T15:04:09.367Z"
+    }
+  ],
+  "studentProfiles": [
+    {
+      "studentId": "student-ducminh",
+      "strengths": "Có vốn từ phong phú, giọng văn giàu cảm xúc và hình ảnh, tiếp thu nhanh các bài thơ trữ tình.",
+      "needsImprovement": "Cần chú ý cách ngắt câu và rèn luyện kỹ năng lập dàn ý trước khi viết đoạn văn dài.",
+      "monthlyGoals": "Hoàn thành đủ các bài tập về nhà đúng hạn và đạt điểm 9 phần phân tích văn học.",
+      "updatedAt": "2026-10-10T15:04:09.367Z"
+    },
+    {
+      "studentId": "student-haianh",
+      "strengths": "Tư duy mạch lạc, lập luận logic, phát biểu xây dựng bài rất tích cực trong giờ học.",
+      "needsImprovement": "Rèn thêm cách mở bài gián tiếp mềm mại và truyền cảm hơn.",
+      "monthlyGoals": "Tích lũy 100 điểm sao Chill Văn và đạt danh hiệu Ngôi sao tích cực.",
+      "updatedAt": "2026-10-10T15:04:09.367Z"
+    }
+  ]
+}

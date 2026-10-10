@@ -1,0 +1,6 @@
+{
+  "name": "CHILL VĂN – CÔ YẾN THANH",
+  "description": "Học Văn thật chill – Mỗi ngày một chút tiến bộ! Hệ thống quản lý học tập Ngữ văn cho cô trò.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
